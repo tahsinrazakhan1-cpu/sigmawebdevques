@@ -1,0 +1,28 @@
+/* task1 */
+/* element slector and class slector */
+p {
+    color: blue;
+}
+.text {
+    color: red;
+}
+/* element slector with the important sign */
+p{
+    color: blue !important;
+}
+/* task 3 */
+/* first rule */
+.casecade{
+    color: green;
+    font-size: 20px;
+}
+/* second rule */
+.casecade{
+    color: purple;
+}
+
+/* Some other CSS */
+
+body {
+    font-family: Arial, sans-serif;
+}

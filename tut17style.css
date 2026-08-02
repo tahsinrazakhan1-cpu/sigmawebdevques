@@ -1,0 +1,25 @@
+/* <!-- Tutorial 17: CSS Selectors MasterClass
+
+Task 1: Use the universal selector to set the margin and padding of every element to zero.
+
+Task 2: Target all elements with a specific class and change their font size, but target one specific element by its ID to change its color.
+
+Task 3: Group the h1, h2, and p selectors to give them all a shared border in a single CSS rule. --> */
+
+/* task one the univesrsal selector */
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+/* task two the element selector */
+.text {
+    font-size: 25px;
+}
+#special {
+    color: blueviolet;
+}
+/* task 3 grouping  */
+h1,h2,p {
+    border: 2px solid rgb(236, 109, 109);
+}

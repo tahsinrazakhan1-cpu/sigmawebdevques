@@ -1,0 +1,31 @@
+/* <!-- Tutorial 18: Box Model (Margin, Padding & Borders)
+
+Task 1: Create a box with a width of 200px and add 20px of padding on all sides.
+
+Task 2: Add a 5px solid black border to the box and set a margin of 50px to push it away from other elements.
+
+Task 3: Use the border-radius property to turn your square box into a circle.
+
+Task 4: Set different margin values for the top, right, bottom, and left of a single element using the shorthand property. -->
+ */
+.box{
+    width: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    /* margin: 50px; */
+    border: radius 50px;
+    background-color: lightblue;
+    /* box-sizing: border-box; */
+
+}
+/* task 4  */
+.box2{
+        width: 200px;
+    padding: 20px;
+    border: 2px solid blue;
+    background-color: lightgreen;
+
+    /* top rigth bottom left */
+    margin: 10px 20px 30px 40px;
+
+}

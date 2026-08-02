@@ -1,0 +1,65 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 60px;
+}
+
+/* task 2  */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    background-color: #333;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* task 1  */
+.parent {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    margin: 30px;
+}
+
+.child {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    width: 70px;
+    height: 70px;
+    background-color: tomato;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* task 3 */
+.section {
+
+    height: 400px;
+    overflow-y: auto;
+    border: 2px solid black;
+    margin: 30px;
+    padding: 10px;
+}
+
+.sticky-heading {
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 10px
+}

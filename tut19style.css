@@ -1,0 +1,27 @@
+/* <!-- Tutorial 19: Fonts, Text & Color Properties
+•	Task 1: Set the font-family of your page to "Arial" and provide "sans-serif" as a fallback.
+•	Task 2: Change a paragraph to be all uppercase and add an underline using CSS text properties.
+•	Task 3: Adjust the line-height of a paragraph to make it easier to read and center-align the text. --> */
+
+/* task one set the fonts  */
+
+body
+{
+    font-family: Arial, sans-serif;
+}
+
+
+.para {
+    /* task 2  */
+    text-transform: uppercase;
+    text-decoration: underline;
+
+    /* task3 */
+    line-height:1.8 ;
+    text-align: center;
+
+    /* extra for the bueatifications  */
+     color: darkblue;             
+    font-size: 20px;          
+
+}

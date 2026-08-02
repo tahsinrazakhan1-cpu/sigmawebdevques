@@ -1,0 +1,89 @@
+<!-- 
+
+Tutorial 12: Exercise 1 - Pure HTML Media Player
+
+Task 1: Build a page that acts as a video gallery using only the tags learned so far (no CSS).
+
+Task 2: Combine your media players from Tutorial 10 with the semantic layout from Tutorial 11 to create an organized "Media Hub". -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Hub</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Media Hub</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Videos</a> |
+        <a href="#">Music</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Video Gallery -->
+        <section>
+            <h2>Video Gallery</h2>
+
+            <article>
+                <h3>Video 1</h3>
+                <video src="video1.mp4" controls width="400">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+
+            <article>
+                <h3>Video 2</h3>
+                <video src="video2.mp4" controls width="400">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+
+        </section>
+
+        <hr>
+
+        <!-- Audio Section -->
+        <section>
+            <h2>Audio Player</h2>
+
+            <article>
+                <h3>My Favorite Song</h3>
+                <audio src="audio.mp3" controls autoplay>
+                    Your browser does not support the audio element.
+                </audio>
+            </article>
+
+        </section>
+
+        <hr>
+
+        <!-- Sidebar -->
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="#">HTML Tutorial</a></li>
+                <li><a href="#">Video Editing Tips</a></li>
+                <li><a href="#">Music Library</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Media Hub. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

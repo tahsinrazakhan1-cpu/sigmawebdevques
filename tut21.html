@@ -1,0 +1,22 @@
+<!-- Tutorial 21: CSS Specificity & Cascade
+•	Task 1: Create a paragraph with a class. Set the color to red in the class selector and blue in the element selector. Verify which color "wins".
+•	Task 2: Use the !important rule to force an element selector to override a class selector's style.
+•	Task 3: Write two identical rules for the same class at the top and bottom of your CSS and observe which one is applied. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity & Cascade</title>
+    <link rel="stylesheet" href="tut21style.css">
+</head>
+<body>
+    <h1>CSS Specificity & Cascade</h1>
+    <!-- task one  -->
+     <p class="text"> this paragrafh has both element and class selesctor </p>
+     <!-- task 2  -->
+      <p class="impo-text">this paragrafh uses !important in the element selector </p>
+      <!-- task 3  -->
+       <p class="Cascade">this paragrafh uses the css casecade</p>
+</body>
+</html>

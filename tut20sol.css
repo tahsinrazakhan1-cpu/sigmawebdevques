@@ -1,0 +1,11 @@
+/* Styling for all paragraphs inside a div */
+div p {
+    background-color: blue;
+    color: white;
+}
+
+/* Overriding style for the first paragraph inside every div */
+div p:first-child {
+    background-color: yellow;
+    color: red;
+}

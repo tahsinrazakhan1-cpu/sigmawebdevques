@@ -1,0 +1,115 @@
+Tutorial 1: Setup & Web Mechanics  {done }
+•	Task 1: Open VS Code, create a folder named SigmaRevision, and inside it, create a file named hello.txt. Write "Learning Web Dev" and save it.done
+•	Task 2: Open your browser, go to any news website, and use the Inspect Element tool to change the main headline to your own name.
+•	Task 3: Use the View Page Source option on a simple website and find where the <head> section ends.done 
+Tutorial 2: Your First HTML Website { done }
+•	Task 1: Create a file named index.html and write the minimum code required to display "Hello World" in the browser.
+•	Task 2: Change the filename from index.html to home.htm and verify if it still opens correctly in your browser.
+•	Task 3: Add a comment in your HTML file that says "This is my first code" and verify that it does not appear on the web page.
+Tutorial 3: Basic Structure
+•	Task 1: Generate the HTML boilerplate and change the content inside the <title> tag to "My Practice Page".
+•	Task 2: Create a structure where a <h1> heading is the "child" of the <body> tag.
+•	Task 3: Inside the <head>, add a metadata tag that sets the character encoding to UTF-8.
+Tutorial 4: Headings, Paragraphs & Links
+•	Task 1: Create a hierarchy of headings from <h1> to <h6> with the text "Priority [Number]".
+•	Task 2: Write a paragraph of text and use a link (<a>) that opens "https://www.codewithharry.com" in a new tab.
+•	Task 3: Create an internal link at the bottom of a long page that jumps back to the top <h1> heading when clicked.
+Tutorial 5: Images, Lists & Tables
+•	Task 1: Display an image from a local folder and set its alternative text to "Portfolio Image".
+•	Task 2: Create an ordered list of your top 3 favorite foods and an unordered list of groceries inside one of the food items.
+•	Task 3: B	tab		uild a table with 3 rows and 2 columns representing "Item Name" and "Price", using <th> for headers.
+•	Task 4: Modify the table from Task 3 so that one header cell spans across 2 columns using the colspan attribute.
+Tutorial 6: SEO & Core Web Vitals
+•	Task 1: Add a meta description tag to your head section that summarizes your website in 15 words.
+•	Task 2: Take an image you used previously and add a descriptive alt attribute to improve accessibility.
+•	Task 3: Set a custom favicon for your website using the appropriate link tag in the head.
+Tutorial 7: Forms & Input Tags
+•	Task 1: Create a form with a text input for "Username" and a password input that hides the characters as you type.
+•	Task 2: Add a "Gender" selection using radio buttons where only one option can be selected at a time.
+•	Task 3: Create a drop-down menu (<select>) for choosing a "City" and a multi-line text area for "Address".
+•	Task 4: Add a "File Upload" input and a "Submit" button to the form.
+Tutorial 8: Inline & Block Elements
+•	Task 1: Create two <div> elements with different text and observe if they sit on the same line or stack.
+•	Task 2: Create two <span> elements and observe their behavior compared to the <div> elements.
+•	Task 3: Nest a <span> inside a <p> tag and apply a style (like bold) to just the span.
+Tutorial 9: Id & Classes
+•	Task 1: Create three different paragraphs and give them the same class name.
+•	Task 2: Give a unique id to the second paragraph and explain why you cannot give that same id to the third paragraph.
+•	Task 3: Create a <div> that has both a class and an id simultaneously.
+Tutorial 10: Video, Audio & Media
+•	Task 1: Embed a local video file and ensure it has play/pause controls visible.
+•	Task 2: Add an audio file to your page that starts playing automatically when the page loads.
+•	Task 3: Set the width of your video to 400 pixels while letting the height adjust automatically.
+Tutorial 11: Semantic Tags
+•	Task 1: Reconstruct your website layout using <header>, <nav>, <main>, and <footer> tags.
+•	Task 2: Inside the <main> tag, create two separate <section> tags, each containing an <article>.
+•	Task 3: Add an <aside> tag for a sidebar containing "Related Links".
+Tutorial 12: Exercise 1 - Pure HTML Media Player
+•	Task 1: Build a page that acts as a video gallery using only the tags learned so far (no CSS).
+•	Task 2: Combine your media players from Tutorial 10 with the semantic layout from Tutorial 11 to create an organized "Media Hub".
+Tutorial 13: Entities & Code Tags
+•	Task 1: Display the text <h1>This is a heading</h1> literally on your webpage so the browser doesn't render it as a real heading.
+•	Task 2: Write a code snippet on your page using the <code> tag and preserve its exact spacing using the <pre> tag.
+•	Task 3: Use a non-breaking space entity to put 5 spaces between two words in a paragraph.
+Tutorial 14 & 15: Introduction to CSS & Insertion
+•	Task 1: Change a paragraph's color to red using inline CSS.
+•	Task 2: Create a <style> tag in the head and change the background color of the entire body to yellow (internal CSS).
+•	Task 3: Create a style.css file, link it to your HTML, and change all headings to blue (external CSS).
+Tutorial 16: Exercise 1 Solution
+•	Task 1: Compare your Media Player code from Tutorial 12 with the solution and update your semantic structure to match the professional standard.
+Tutorial 17: CSS Selectors MasterClass
+•	Task 1: Use the universal selector to set the margin and padding of every element to zero.
+•	Task 2: Target all elements with a specific class and change their font size, but target one specific element by its ID to change its color.
+•	Task 3: Group the h1, h2, and p selectors to give them all a shared border in a single CSS rule.
+Tutorial 18: Box Model (Margin, Padding & Borders)
+•	Task 1: Create a box with a width of 200px and add 20px of padding on all sides.
+•	Task 2: Add a 5px solid black border to the box and set a margin of 50px to push it away from other elements.
+•	Task 3: Use the border-radius property to turn your square box into a circle.
+•	Task 4: Set different margin values for the top, right, bottom, and left of a single element using the shorthand property.
+Tutorial 19: Fonts, Text & Color Properties
+•	Task 1: Set the font-family of your page to "Arial" and provide "sans-serif" as a fallback.
+•	Task 2: Change a paragraph to be all uppercase and add an underline using CSS text properties.
+•	Task 3: Adjust the line-height of a paragraph to make it easier to read and center-align the text.
+Tutorial 20: Exercise 2 - CSS Challenge
+•	Task 1: Create a "Business Card" layout using a <div> with a border, specific padding, and a centered heading.
+Tutorial 21: CSS Specificity & Cascade
+•	Task 1: Create a paragraph with a class. Set the color to red in the class selector and blue in the element selector. Verify which color "wins".
+•	Task 2: Use the !important rule to force an element selector to override a class selector's style.
+•	Task 3: Write two identical rules for the same class at the top and bottom of your CSS and observe which one is applied.
+Tutorial 22: Sizing Units (rem, em, vh, vw)
+•	Task 1: Set a container's width to 50vw and its height to 100vh so it covers half the screen width but the full height.
+•	Task 2: Set the root font size to 20px and create a heading with a size of 2rem. Verify the resulting pixel size.
+•	Task 3: Create a parent div and a child div. Set the child's width to 50% and observe how it reacts when you resize the parent.
+Tutorial 23: CSS Display Property
+•	Task 1: Change a <span> element so that it behaves like a block and takes up the full width.
+•	Task 2: Change a <div> to inline-block and set a specific width and height for it.
+•	Task 3: Use display: none on an element and verify that the space it occupied is completely removed from the layout.
+Tutorial 24: Shadows & Outlines
+•	Task 1: Add a blue box-shadow to a card element with a 10px blur radius.
+•	Task 2: Add a red text-shadow to a main heading.
+•	Task 3: Apply an outline to an input field that only appears when the user clicks inside it (focus).
+Tutorial 25: Styling Lists
+•	Task 1: Remove the default bullets from an unordered list.
+•	Task 2: Change the list markers to "square" and move them inside the content area.
+•	Task 3: Create a horizontal navigation bar by changing list items to inline.
+Tutorial 26: CSS Overflow
+•	Task 1: Create a small box (100x100px) and put a large paragraph inside it. Set overflow: hidden to cut off the extra text.
+•	Task 2: Change the overflow to scroll and observe the scrollbars.
+•	Task 3: Set overflow-x: hidden and overflow-y: auto to allow only vertical scrolling.
+Tutorial 27: Exercise 2 Solution
+•	Task 1: Re-style your "Business Card" from Tutorial 20 using the advanced selectors and sizing units you've learned since then.
+Tutorial 28: CSS Position Property
+•	Task 1: Create a parent div with position: relative and place a small child div at the bottom-right corner using position: absolute.
+•	Task 2: Create a navigation bar that stays fixed at the very top of the screen even when you scroll down.
+•	Task 3: Use position: sticky on a heading so it stays at the top of its container as you scroll through that section.
+Tutorial 29: Exercise 3 - Design this Card
+•	Task 1: Build a professional "Product Card" that includes an image, a title, a price, and a "Buy Now" button using absolute positioning for a "Sale" badge.
+Tutorial 30: CSS Variables
+•	Task 1: Define a global variable for your main theme color (e.g., --main-bg: red) in the :root selector.
+•	Task 2: Use that variable to set the background color of three different sections.
+•	Task 3: Change the variable value in one place and verify that all three sections update automatically.
+Tutorial 31: Media Queries
+•	Task 1: Write a media query that changes the background color of your page to green only when the screen width is less than 600px.
+•	Task 2: Hide a sidebar element on mobile screens using a media query and display: none.
+•	Task 3: Increase the font size of your paragraphs for screens wider than 1200p
+

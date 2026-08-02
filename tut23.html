@@ -1,0 +1,41 @@
+<!-- Tutorial 23: CSS Display Property
+
+Task 1: Change a <span> element so that it behaves like a block and takes up the full width.
+
+Task 2: Change a <div> to inline-block and set a specific width and height for it.
+
+Task 3: Use display: none on an element and verify that the space it occupied is completely removed from the layout. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css display Property</title>
+    <link rel="stylesheet" href="tut23.css">        
+</head>
+<body>
+    <!-- Task 1 -->
+    <span class="block-span">
+        i was originally a inline element, but now i behave like a block element  
+    </span>
+
+    <hr>
+
+    <!-- Task 2 -->
+    <div class="inline-block-box">box1</div>
+    <div class="inline-block-box">box2</div>
+    <p>
+        two boxes stay on the same line becuz they uses
+        <strong> display: inline-block;</strong> 
+    </p>
+
+    <hr>
+
+    <!-- task 3  -->
+     <h2>Task 3 display none </h2>
+    <div class="hidden-box">you couldnt see me becuz i have display none </div>
+
+    <p>paragrafh after hidden element</p>
+
+</body>
+</html>
