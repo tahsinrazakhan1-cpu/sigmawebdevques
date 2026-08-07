@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Hero</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            height: 400px;
+            background-image: url("https://picsum.photos/1200/600");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            padding: 30px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 250px;
+            background: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .cards {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>Logo</h2>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Learn Flexbox Easily</p>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <h3>HTML</h3>
+            <p>Structure of web pages.</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS</h3>
+            <p>Design beautiful websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>JavaScript</h3>
+            <p>Add interactivity.</p>
+        </div>
+    </section>
+
+</body>
+</html>

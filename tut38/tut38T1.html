@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox vs Float</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 20px 0;
+        }
+
+        .float-container {
+            border: 2px solid black;
+            overflow: auto;
+        }
+
+        .float-container .box {
+            float: left;
+            width: 30%;
+            margin: 10px;
+            background: skyblue;
+            padding: 40px;
+            text-align: center;
+        }
+
+        .flex-container {
+            display: flex;
+            border: 2px solid black;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .flex-container .box {
+            flex: 1;
+            background: lightgreen;
+            padding: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Float Layout</h1>
+
+    <div class="float-container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+    <hr>
+
+    <h1>Flexbox Layout</h1>
+
+    <div class="flex-container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+</body>
+</html>
