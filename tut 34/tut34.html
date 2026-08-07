@@ -1,0 +1,79 @@
+<!-- Task 1: Global Reset and Consistency Create an HTML page with several different elements (a few headings, paragraphs, and a couple of div boxes). Use the universal selector to set the margin and padding of every element to 0 and set the box-sizing to border-box. Open your browser's Inspect Element tool to verify that the default browser spacing has disappeared.
+Task 2: Efficient Styling with Grouping Build a layout with an h1, an h2, three paragraphs (p), and two span tags. Instead of writing separate rules, write one single CSS rule that targets all of these specific tags to give them a shared font-family of "Arial" and a text color of darkblue.
+Task 3: Precise Targeting and Class Combinations Create three paragraphs and three div containers. Give one paragraph and one div the class name urgent. Write a combined selector that targets only the paragraph with the urgent class to make its text red and bold, while leaving the div with the same class unaffected. Then, add a second class border-box to that same paragraph and write a separate rule for it to see how multiple classes work together.
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Selectors Practice</title>
+
+<style>
+
+    /* Task 1 */
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Task 2 */
+    h1, h2, p, span{
+        font-family: Arial, Helvetica, sans-serif;
+        color: darkblue;
+    }
+
+    /* Task 3 */
+    p.urgent{
+        color: red;
+        font-weight: bold;
+    }
+
+    .border-box{
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    div{
+        border:1px solid gray;
+        padding:15px;
+        margin:15px;
+    }
+
+</style>
+
+</head>
+<body>
+
+    <div>
+        <h1>Hello, you are my precious one</h1>
+
+        <p class="urgent border-box">
+            This paragraph is urgent.
+        </p>
+
+        <span>First Span</span>
+        <span>Second Span</span>
+    </div>
+
+    <div class="urgent">
+        <h2>Second Heading</h2>
+
+        <p>
+            This is a normal paragraph.
+        </p>
+    </div>
+
+    <div>
+        <h2>Third Heading</h2>
+
+        <p>
+            This is the third paragraph.
+        </p>
+    </div>
+
+</body>
+</html>
